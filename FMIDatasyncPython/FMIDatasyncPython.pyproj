@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>FMIDatasyncPython</Name>
     <RootNamespace>FMIDatasyncPython</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>--path=ko/fmimeteo/observations/2020-09.csv --datetime=2020-10-01T00:00:09.0000000Z --delete=no</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
